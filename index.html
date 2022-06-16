@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Tarjeta</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <form class="formulario" action="" method="post">
+        <h1 class="titulo">Validar Tarjeta de Credito</h1>
+        
+        <div class="datos">
+            <label for="numero">Ingrese Numero de Tarjeta</label>
+            <input type="text" id="numero" name="numero" />
+        </div>
+        <div class="resultado">
+            <p class="resultado"></p>
+        </div>
+        <div class="boton">
+            <input class="boton-validar" type=button value="Validar" onclick="ValidarTarjetaCredito()">
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
